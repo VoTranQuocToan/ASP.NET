@@ -77,3 +77,7 @@ D:\ASP.net\ASP.NET\ASP.NET\obj\Debug\ASP.NET.csproj.CoreCompileInputs.cache
 D:\ASP.net\ASP.NET\ASP.NET\obj\Debug\ASP.NET.csproj.Up2Date
 D:\ASP.net\ASP.NET\ASP.NET\obj\Debug\ASP.NET.dll
 D:\ASP.net\ASP.NET\ASP.NET\obj\Debug\ASP.NET.pdb
+D:\ASP.net\ASP.NET\ASP.NET\bin\EntityFramework.dll
+D:\ASP.net\ASP.NET\ASP.NET\bin\EntityFramework.SqlServer.dll
+D:\ASP.net\ASP.NET\ASP.NET\bin\EntityFramework.xml
+D:\ASP.net\ASP.NET\ASP.NET\bin\EntityFramework.SqlServer.xml
