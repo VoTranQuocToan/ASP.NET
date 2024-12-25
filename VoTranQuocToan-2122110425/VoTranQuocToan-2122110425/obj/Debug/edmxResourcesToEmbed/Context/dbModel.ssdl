@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="web_aspModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Brand">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="Avatar" Type="nvarchar" MaxLength="255" />
+    <Property Name="Slug" Type="nvarchar" MaxLength="255" />
+    <Property Name="ShowOnHomePage" Type="bit" />
+    <Property Name="DisplayOrder" Type="int" />
+    <Property Name="CreatedOnUtc" Type="datetime" />
+    <Property Name="UpdatedOnUtc" Type="datetime" />
+    <Property Name="Deleted" Type="bit" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="Avatar" Type="nvarchar" MaxLength="255" />
+    <Property Name="Slug" Type="nvarchar" MaxLength="255" />
+    <Property Name="ShowOnHomePage" Type="bit" />
+    <Property Name="DisplayOrder" Type="int" />
+    <Property Name="Deleted" Type="bit" />
+    <Property Name="CreatedOnUtc" Type="datetime" />
+    <Property Name="UpdatedOnUtc" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="ProductId" Type="int" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Status" Type="int" />
+    <Property Name="CreatedOnUtc" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="Avatar" Type="nvarchar" MaxLength="255" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="ShortDes" Type="nvarchar" MaxLength="255" />
+    <Property Name="FullDescription" Type="nvarchar(max)" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PriceDiscount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="TypeId" Type="int" />
+    <Property Name="Slug" Type="nvarchar" MaxLength="255" />
+    <Property Name="BrandId" Type="int" />
+    <Property Name="Deleted" Type="bit" />
+    <Property Name="ShowOnHomePage" Type="bit" />
+    <Property Name="DisplayOrder" Type="int" />
+    <Property Name="CreatedOnUtc" Type="datetime" />
+    <Property Name="UpdatedOnUtc" Type="datetime" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="255" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="255" />
+    <Property Name="Email" Type="nvarchar" MaxLength="255" />
+    <Property Name="Password" Type="nvarchar" MaxLength="255" />
+    <Property Name="IsAdmin" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="web_aspModelStoreContainer">
+    <EntitySet Name="Brand" EntityType="Self.Brand" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

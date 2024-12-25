@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="web_aspModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Brand">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Avatar" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Slug" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ShowOnHomePage" Type="Boolean" />
+    <Property Name="DisplayOrder" Type="Int32" />
+    <Property Name="CreatedOnUtc" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedOnUtc" Type="DateTime" Precision="3" />
+    <Property Name="Deleted" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Avatar" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Slug" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ShowOnHomePage" Type="Boolean" />
+    <Property Name="DisplayOrder" Type="Int32" />
+    <Property Name="Deleted" Type="Boolean" />
+    <Property Name="CreatedOnUtc" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedOnUtc" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ProductId" Type="Int32" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="CreatedOnUtc" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Avatar" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="ShortDes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FullDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PriceDiscount" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TypeId" Type="Int32" />
+    <Property Name="Slug" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="BrandId" Type="Int32" />
+    <Property Name="Deleted" Type="Boolean" />
+    <Property Name="ShowOnHomePage" Type="Boolean" />
+    <Property Name="DisplayOrder" Type="Int32" />
+    <Property Name="CreatedOnUtc" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedOnUtc" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="IsAdmin" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="web_aspEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Brands" EntityType="Self.Brand" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Orders" EntityType="Self.Order" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+  </EntityContainer>
+</Schema>
