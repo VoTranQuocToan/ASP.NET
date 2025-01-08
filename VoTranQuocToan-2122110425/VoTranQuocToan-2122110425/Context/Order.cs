@@ -14,11 +14,12 @@ namespace VoTranQuocToan_2122110425.Context
     
     public partial class Order
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public Nullable<int> ProductId { get; set; }
         public Nullable<decimal> Price { get; set; }
         public Nullable<int> Status { get; set; }
         public Nullable<System.DateTime> CreatedOnUtc { get; set; }
+        public Nullable<int> Userid { get; set; }
+        public int Id { get; set; }
     }
 }

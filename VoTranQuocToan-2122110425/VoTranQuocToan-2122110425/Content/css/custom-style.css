@@ -1,0 +1,19 @@
+﻿body {
+.price-wrap
+{
+    white-space: nowrap;
+    min-width: 120px;
+}
+
+.text-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+input[type="text"].form-control {
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+}
+}

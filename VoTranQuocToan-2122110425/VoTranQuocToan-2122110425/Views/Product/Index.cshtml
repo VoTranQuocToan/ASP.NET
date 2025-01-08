@@ -1,191 +1,122 @@
 ﻿@model VoTranQuocToan_2122110425.Context.Product
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Trang Chủ";
     Layout = "~/Views/Shared/_LayOut.cshtml";
 }
-
-<!-- ========================= SECTION CONTENT ========================= -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#addtocart").click(function () {
+            var model = {};
+            // Lấy ID sản phẩm
+            model.Id = @Model.Id;
+            // Lấy số lượng đặt hàng
+            model.Quantity = $("#ipQuantity").val();
+            debugger;
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("AddToCart", "Cart")',
+                data: JSON.stringify(model),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function () {
+                    alert("Thêm vào giỏ hàng thành công!");
+                    $('#CartCount').text(@Session["count"] + 1);
+                },
+                error: function () {
+                    alert("Lỗi trong khi thêm vào giỏ hàng!");
+                }
+            });
+            return false;
+        });
+    });
+</script>
+<!-- ========================= MỤC NỘI DUNG ========================= -->
 <section class="section-content bg-white padding-y">
     <div class="container">
 
-        <!-- ============================ ITEM DETAIL ======================== -->
+        <!-- ============================ CHI TIẾT SẢN PHẨM ======================== -->
         <div class="row">
             <aside class="col-md-6">
                 <div class="card">
                     <article class="gallery-wrap">
                         <div class="img-big-wrap">
-                            <div> <a href="#"><img src="~/Content/images/items/@Model.Avatar"></a></div>
-                        </div> <!-- slider-product.// -->
+                            <div><a href="#"><img src="~/Content/images/items/@Model.Avatar"></a></div>
+                        </div>
                         <div class="thumbs-wrap">
-                            <a href="#" class="item-thumb"> <img src="~/Content/images/items/15.jpg"></a>
-                            <a href="#" class="item-thumb"> <img src="~/Content/images/items/15-1.jpg"></a>
-                            <a href="#" class="item-thumb"> <img src="~/Content/images/items/15-2.jpg"></a>
-                            <a href="#" class="item-thumb"> <img src="~/Content/images/items/15-1.jpg"></a>
-                        </div> <!-- slider-nav.// -->
-                    </article> <!-- gallery-wrap .end// -->
-                </div> <!-- card.// -->
+                            <a href="#" class="item-thumb"><img src="~/Content/images/items/15.jpg"></a>
+                            <a href="#" class="item-thumb"><img src="~/Content/images/items/15-1.jpg"></a>
+                            <a href="#" class="item-thumb"><img src="~/Content/images/items/15-2.jpg"></a>
+                            <a href="#" class="item-thumb"><img src="~/Content/images/items/15-1.jpg"></a>
+                        </div>
+                    </article>
+                </div>
             </aside>
             <main class="col-md-6">
                 <article class="product-info-aside">
 
-                    <h2 class="title mt-3">@Model.Name </h2>
+                    <h2 class="title mt-3">@Model.Name</h2>
 
                     <div class="rating-wrap my-3">
                         <ul class="rating-stars">
                             <li style="width:80%" class="stars-active">
-                                <i class="fa fa-star"></i> <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                             </li>
                             <li>
-                                <i class="fa fa-star"></i> <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                             </li>
                         </ul>
-                        <small class="label-rating text-muted">132 reviews</small>
-                        <small class="label-rating text-success"> <i class="fa fa-clipboard-check"></i> 154 orders </small>
-                    </div> <!-- rating-wrap.// -->
+                        <small class="label-rating text-muted">132 đánh giá</small>
+                        <small class="label-rating text-success"><i class="fa fa-clipboard-check"></i> 154 đơn hàng</small>
+                    </div>
 
                     <div class="mb-3">
-                        <var class="price h4">@Model.Price</var>
-                        <span class="text-muted">USD 562.65 incl. VAT</span>
-                    </div> <!-- price-detail-wrap .// -->
+                        <var class="price h4">@String.Format(new System.Globalization.CultureInfo("vi-VN"), "{0:C0}", Model.Price)</var>
+                        <span class="text-muted">Đã bao gồm VAT</span>
+                    </div>
 
                     <p>
                         @Model.ShortDes
                     </p>
 
-
                     <dl class="row">
-                        <dt class="col-sm-3">Manufacturer</dt>
+                        <dt class="col-sm-3">Nhà sản xuất</dt>
                         <dd class="col-sm-9"><a href="#">Great textile Ltd.</a></dd>
 
-                        <dt class="col-sm-3">Article number</dt>
+                        <dt class="col-sm-3">Mã sản phẩm</dt>
                         <dd class="col-sm-9">596 065</dd>
 
-                        <dt class="col-sm-3">Guarantee</dt>
-                        <dd class="col-sm-9">2 year</dd>
+                        <dt class="col-sm-3">Bảo hành</dt>
+                        <dd class="col-sm-9">2 năm</dd>
 
-                        <dt class="col-sm-3">Delivery time</dt>
-                        <dd class="col-sm-9">3-4 days</dd>
+                        <dt class="col-sm-3">Thời gian giao hàng</dt>
+                        <dd class="col-sm-9">3-4 ngày</dd>
 
-                        <dt class="col-sm-3">Availabilty</dt>
-                        <dd class="col-sm-9">in Stock</dd>
+                        <dt class="col-sm-3">Tình trạng</dt>
+                        <dd class="col-sm-9">Còn hàng</dd>
                     </dl>
 
-                    <div class="form-row  mt-4">
+                    <div class="form-row mt-4">
                         <div class="form-group col-md flex-grow-0">
                             <div class="input-group mb-3 input-spinner">
-                                <div class="input-group-prepend">
-                                    <button class="btn btn-light" type="button" id="button-plus"> + </button>
-                                </div>
-                                <input type="text" class="form-control" value="1">
-                                <div class="input-group-append">
-                                    <button class="btn btn-light" type="button" id="button-minus"> &minus; </button>
-                                </div>
+                                <input type="text" id="ipQuantity" class="form-control" value="1">
                             </div>
-                        </div> <!-- col.// -->
+                        </div>
                         <div class="form-group col-md">
-                            <a href="#" class="btn  btn-primary">
-                                <i class="fas fa-shopping-cart"></i> <span class="text">Add to cart</span>
+                            <a href="@Url.Action("Add","Cart", new {Id=Model.Id})" id="addtocart" class="btn btn-primary">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="text">Thêm vào giỏ hàng</span>
                             </a>
-                            <a href="#" class="btn btn-light">
-                                <i class="fas fa-envelope"></i> <span class="text">Contact supplier</span>
-                            </a>
-                        </div> <!-- col.// -->
-                    </div> <!-- row.// -->
-
-                </article> <!-- product-info-aside .// -->
-            </main> <!-- col.// -->
-        </div> <!-- row.// -->
-        <!-- ================ ITEM DETAIL END .// ================= -->
-
-
-    </div> <!-- container .//  -->
-</section>
-<!-- ========================= SECTION CONTENT END// ========================= -->
-<!-- ========================= SECTION  ========================= -->
-<section class="section-name padding-y bg">
-    <div class="container">
-
-        <div class="row">
-            <div class="col-md-8">
-                <h5 class="title-description">Description</h5>
-                @Model.FullDescription
-            </div> <!-- col.// -->
-
-            <aside class="col-md-4">
-
-                <div class="box">
-
-                    <h5 class="title-description">Files</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-
-                    <h5 class="title-description">Videos</h5>
-
-
-                    <article class="media mb-3">
-                        <a href="#"><img class="img-sm mr-3" src="~/Content/images/posts/@Model.Avatar"></a>
-                        <div class="media-body">
-                            <h6 class="mt-0"><a href="#">How to use this item</a></h6>
-                            <p class="mb-2"> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin </p>
                         </div>
-                    </article>
+                    </div>
 
-                    <article class="media mb-3">
-                        <a href="#"><img class="img-sm mr-3" src="~/Content/images/posts/2.jpg"></a>
-                        <div class="media-body">
-                            <h6 class="mt-0"><a href="#">New tips and tricks</a></h6>
-                            <p class="mb-2"> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin </p>
-                        </div>
-                    </article>
-
-                    <article class="media mb-3">
-                        <a href="#"><img class="img-sm mr-3" src="~/Content/images/posts/1.jpg"></a>
-                        <div class="media-body">
-                            <h6 class="mt-0"><a href="#">New tips and tricks</a></h6>
-                            <p class="mb-2"> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin </p>
-                        </div>
-                    </article>
-
-
-
-                </div> <!-- box.// -->
-            </aside> <!-- col.// -->
-        </div> <!-- row.// -->
-
-    </div> <!-- container .//  -->
-</section>
-<!-- ========================= SECTION CONTENT END// ========================= -->
-<!-- ========================= SECTION SUBSCRIBE  ========================= -->
-<section class="padding-y-lg bg-light border-top">
-    <div class="container">
-
-        <p class="pb-2 text-center">Delivering the latest product trends and industry news straight to your inbox</p>
-
-        <div class="row justify-content-md-center">
-            <div class="col-lg-4 col-sm-6">
-                <form class="form-row">
-                    <div class="col-8">
-                        <input class="form-control" placeholder="Your Email" type="email">
-                    </div> <!-- col.// -->
-                    <div class="col-4">
-                        <button type="submit" class="btn btn-block btn-warning"> <i class="fa fa-envelope"></i> Subscribe </button>
-                    </div> <!-- col.// -->
-                </form>
-                <small class="form-text">We’ll never share your email address with a third-party. </small>
-            </div> <!-- col-md-6.// -->
+                </article>
+            </main>
         </div>
-
 
     </div>
 </section>
-<!-- ========================= SECTION SUBSCRIBE END// ========================= -->

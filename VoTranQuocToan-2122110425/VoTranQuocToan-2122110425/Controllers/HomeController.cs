@@ -27,15 +27,16 @@ namespace VoTranQuocToan_2122110425.Controllers
         {
             return View();
         }
+        //POST: Register
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Register(User _user)
         {
-            if (!ModelState.IsValid) 
+            if (ModelState.IsValid)
             {
-                var check= objweb_aspEntities.Users.FirstOrDefault(s => s.Email == _user.Email);
-                if (check == null) 
-                { 
+                var check = objweb_aspEntities.Users.FirstOrDefault(s => s.Email == _user.Email);
+                if (check == null)
+                {
                     _user.Password = GetMD5(_user.Password);
                     objweb_aspEntities.Configuration.ValidateOnSaveEnabled = false;
                     objweb_aspEntities.Users.Add(_user);
@@ -47,23 +48,25 @@ namespace VoTranQuocToan_2122110425.Controllers
                     ViewBag.error = "Email already exists";
                     return View();
                 }
+
+
             }
-            //kiểm tra và lưu vào database
             return View();
-        }//create a string MD5
+
+
+        }
         public static string GetMD5(string str)
         {
             MD5 md5 = new MD5CryptoServiceProvider();
             byte[] fromData = Encoding.UTF8.GetBytes(str);
             byte[] targetData = md5.ComputeHash(fromData);
-            string byte2String = null;
-
+            StringBuilder byte2String = new StringBuilder();
             for (int i = 0; i < targetData.Length; i++)
             {
-                byte2String += targetData[i].ToString("x2");
-
+                byte2String.Append(targetData[i].ToString("x2"));
             }
-            return byte2String;
+            return byte2String.ToString();
+
         }
 
         public ActionResult Login()
@@ -85,6 +88,7 @@ namespace VoTranQuocToan_2122110425.Controllers
                 {
                     //add session
                     Session["FullName"] = data.FirstOrDefault().FirstName + " " + data.FirstOrDefault().LastName;
+                    Session["FirstName"] = data.FirstOrDefault().FirstName;
                     Session["Email"] = data.FirstOrDefault().Email;
                     Session["idUser"] = data.FirstOrDefault().Id;
                     return RedirectToAction("Index");
@@ -104,6 +108,21 @@ namespace VoTranQuocToan_2122110425.Controllers
         {
             Session.Clear();//remove session
             return RedirectToAction("Login");
+        }
+        public ActionResult Search(string query)
+        {
+            if (string.IsNullOrEmpty(query))
+            {
+                return View("SearchResults", new List<Product>()); // Không có kết quả
+            }
+
+            // Tìm kiếm sản phẩm theo tên hoặc mô tả
+            var products = objweb_aspEntities.Products
+                .Where(p => p.Name.Contains(query) || p.ShortDes.Contains(query))
+                .ToList();
+
+            // Trả về view với danh sách sản phẩm tìm được
+            return View("SearchResults", products);
         }
     }
 }

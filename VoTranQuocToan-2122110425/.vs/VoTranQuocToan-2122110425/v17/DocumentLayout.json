@@ -3,24 +3,56 @@
   "WorkspaceRootPath": "D:\\ASP.net\\VoTranQuocToan-2122110425\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|d:\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|d:\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|d:\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|d:\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|d:\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|d:\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|D:\\ASP.net\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|D:\\ASP.net\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|d:\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|d:\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|d:\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\views\\category\\productcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\views\\category\\productcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|d:\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|D:\\ASP.net\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|d:\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|D:\\ASP.net\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|D:\\ASP.net\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|D:\\ASP.net\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,15 +70,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEIDAAAAAAAAAAAuwFIDAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T07:46:05.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "VoTranQuocToan-2122110425\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAHgAAAAAAAAAAADgv3YAAAA0AAAA",
+              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADwCAAAAAAAAAAAowFYCAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T08:23:56.344Z",
+              "WhenOpened": "2025-01-08T07:37:22.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T07:35:57.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminAreaRegistration.cs",
+              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T07:35:42.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductCategory.cshtml",
+              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Category\\ProductCategory.cshtml",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Views\\Category\\ProductCategory.cshtml",
+              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Category\\ProductCategory.cshtml",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Views\\Category\\ProductCategory.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T06:35:05.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Controllers\\CartController.cs",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Controllers\\CartController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAqwDYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T08:57:59.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Payment\\Index.cshtml",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Views\\Payment\\Index.cshtml",
+              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Payment\\Index.cshtml",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Views\\Payment\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T08:54:19.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAADwvz4AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T08:54:03.678Z",
               "EditorCaption": ""
             },
             {
@@ -57,48 +178,61 @@
               "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "VoTranQuocToan-2122110425\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADQAAAAAAAAAAAAAAEIAAAA9AAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T08:15:06.971Z",
+              "WhenOpened": "2024-12-30T08:24:29.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Views\\Home\\Login.cshtml",
-              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "VoTranQuocToan-2122110425\\Views\\Home\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAuwIUAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T08:10:01.786Z",
+              "WhenOpened": "2024-12-30T08:19:47.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Home\\Register.cshtml",
-              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Views\\Home\\Register.cshtml",
-              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Home\\Register.cshtml",
-              "RelativeToolTip": "VoTranQuocToan-2122110425\\Views\\Home\\Register.cshtml",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAADsAAAAGAAAA",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAowKkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T07:56:24.633Z",
+              "WhenOpened": "2024-12-30T08:19:44.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Controllers\\HomeController.cs",
               "RelativeToolTip": "VoTranQuocToan-2122110425\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCAAAAAIAAAA",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAuwHwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T07:50:04.375Z",
+              "WhenOpened": "2024-12-30T08:04:31.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\ASP.net\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD8AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T06:32:25.527Z",
               "EditorCaption": ""
             }
           ]
