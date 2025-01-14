@@ -11,7 +11,8 @@ namespace VoTranQuocToan_2122110425.Context
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations.Schema;
+
     public partial class Order
     {
         public string Name { get; set; }
@@ -21,5 +22,8 @@ namespace VoTranQuocToan_2122110425.Context
         public Nullable<System.DateTime> CreatedOnUtc { get; set; }
         public Nullable<int> Userid { get; set; }
         public int Id { get; set; }
+
+        [NotMapped]
+        public System.Web.HttpPostedFileBase ImageUpload { get; set; }
     }
 }
