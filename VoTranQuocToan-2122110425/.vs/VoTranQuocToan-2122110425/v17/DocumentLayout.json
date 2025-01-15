@@ -3,44 +3,36 @@
   "WorkspaceRootPath": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|c:\\git\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|c:\\git\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|c:\\git\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|c:\\git\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|c:\\git\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\context\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\context\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|c:\\git\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\context\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\context\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|c:\\git\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\context\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\context\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|c:\\git\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|c:\\git\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|c:\\git\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|c:\\git\\asp.net\\votranquoctoan-2122110425\\votranquoctoan-2122110425\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAFCA4B2-0173-4249-AA74-90BE107F1A47}|VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425.csproj|solutionrelative:votranquoctoan-2122110425\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,106 +51,87 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Create.cshtml",
-              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Create.cshtml",
-              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Create.cshtml",
-              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Create.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T04:55:42.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Delete.cshtml",
-              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Delete.cshtml",
-              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Delete.cshtml",
-              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Delete.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T04:55:08.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Details.cshtml",
-              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Details.cshtml",
-              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Details.cshtml",
-              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Details.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T04:54:58.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Edit.cshtml",
-              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Edit.cshtml",
-              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Edit.cshtml",
-              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Edit.cshtml",
-              "ViewState": "AQIAABEAAAAAAAAAAAAowB8AAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T04:54:39.718Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:59:37.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T04:54:26.186Z",
-              "EditorCaption": ""
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Context\\Category.cs",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Context\\Category.cs",
+              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Context\\Category.cs",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Context\\Category.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAewBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:49:21.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Context\\Brand.cs",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Context\\Brand.cs",
+              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Context\\Brand.cs",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Context\\Brand.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAtwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:48:57.849Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAABAAAAA",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Context\\Product.cs",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Context\\Product.cs",
+              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Context\\Product.cs",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Context\\Product.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAIAxwCsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:48:06.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:44:01.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAAAHwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T04:52:45.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T11:41:20.294Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAowHoAAABcAAAA",
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "VoTranQuocToan-2122110425\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T04:50:35.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
-              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
-              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
-              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAEwC8AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T04:45:51.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T11:36:56.512Z"
             },
             {
               "$type": "Document",
@@ -168,23 +141,9 @@
               "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\BrandController.cs",
               "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\BrandController.cs",
               "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Controllers\\BrandController.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAADgv3wAAABsAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T04:43:58.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
-              "RelativeDocumentMoniker": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
-              "ToolTip": "C:\\Git\\ASP.NET\\VoTranQuocToan-2122110425\\VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
-              "RelativeToolTip": "VoTranQuocToan-2122110425\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T04:43:00.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T10:25:02.398Z"
             }
           ]
         }

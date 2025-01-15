@@ -40,6 +40,8 @@ namespace VoTranQuocToan_2122110425.Context
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+        public virtual Brand Brand { get; set; }
+        public virtual Category Category { get; set; }
 
         [NotMapped]
         public System.Web.HttpPostedFileBase ImageUpload { get; set; }

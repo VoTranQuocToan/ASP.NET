@@ -39,6 +39,7 @@ namespace VoTranQuocToan_2122110425.Controllers
                 {
                     _user.Password = GetMD5(_user.Password);
                     objweb_aspEntities.Configuration.ValidateOnSaveEnabled = false;
+                    _user.Id = objweb_aspEntities.Users.Max(u => u.Id) + 1;
                     objweb_aspEntities.Users.Add(_user);
                     objweb_aspEntities.SaveChanges();
                     return RedirectToAction("Index");
